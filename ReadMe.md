@@ -18,9 +18,12 @@
 
 ## Setup Steps:
 
-1. **Install Ollama**:
+1. **Install all required software if not already done**:
 
-   - Run the downloaded Ollama setup.
+   - Run the Ollama setup.
+   - Run the Python setup.
+   - Run the setup for the IDE of choice.
+   - Run the setup for GitBash.
 
 2. **Pull Mistral Model**:
 
