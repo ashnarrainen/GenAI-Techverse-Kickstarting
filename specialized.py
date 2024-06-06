@@ -56,7 +56,7 @@ def main():
     service_context = create_service_context(llm)
     index = create_index(documents, service_context, storage_context)
     query_engine = create_query_engine(index)
-    query = "Hi"
+    query = "write sql query that gives the top 3 best students for each module in mauritius"
     response_stream = query_data(query_engine, query)
     print_response_stream(response_stream)
 
